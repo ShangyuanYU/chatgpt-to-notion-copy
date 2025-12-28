@@ -24,4 +24,4 @@ All functionality, including formatting preservation for code blocks and formula
 
 ## Contact
 
-If you have any questions regarding this privacy policy, please contact the developer at **your-email@example.com**.
+If you have any questions regarding this privacy policy, please contact the developer at yushangyuan1997@gmail.com.
