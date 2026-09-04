@@ -14,6 +14,15 @@
 └── CHANGELOG.md
 ```
 
+## 版本与平台
+
+| 安装包 | 适用系统 | 浏览器 |
+| --- | --- | --- |
+| `chatgpt-notion-math-2.5.0.zip` | Windows | Mozilla Firefox |
+| `ChatGPTtoNotionCopy.zip` | macOS | Google Chrome |
+
+请根据操作系统和浏览器选择对应安装包；两个版本的安装方式和功能实现不同。
+
 当前版本：2.5.0
 
 一个 Firefox 扩展：把 ChatGPT 回答直接写入 Notion，并把公式保存为可编辑的 Notion 原生公式，而不是普通文本或图片。
