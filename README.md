@@ -10,6 +10,7 @@
 ├── chatgpt-notion-math-2.5.0/    # 新增的完整 2.5.0 工具包
 ├── chatgpt-notion-math-2.5.0.zip # 工具包分发压缩包
 ├── README.md
+├── PRIVACY-LEGACY.md             # 原仓库 README 隐私政策原文
 └── CHANGELOG.md
 ```
 
