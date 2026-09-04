@@ -16,12 +16,14 @@
 
 ## 版本与平台
 
-| 安装包 | 适用系统 | 浏览器 |
-| --- | --- | --- |
-| `chatgpt-notion-math-2.5.0.zip` | Windows | Mozilla Firefox |
-| `ChatGPTtoNotionCopy.zip` | macOS | Google Chrome |
+| 安装包 | 适用系统 | 浏览器 | 下载 |
+| --- | --- | --- | --- |
+| `chatgpt-notion-math-2.5.0.zip` | Windows | Mozilla Firefox | [立即下载](https://github.com/ShangyuanYU/chatgpt-to-notion-copy/releases/download/v2.5.0/chatgpt-notion-math-2.5.0.zip) |
+| `ChatGPTtoNotionCopy.zip` | macOS | Google Chrome | [立即下载](https://github.com/ShangyuanYU/chatgpt-to-notion-copy/releases/download/v2.5.0/ChatGPTtoNotionCopy.zip) |
 
 请根据操作系统和浏览器选择对应安装包；两个版本的安装方式和功能实现不同。
+
+也可以前往 [v2.5.0 Release 页面](https://github.com/ShangyuanYU/chatgpt-to-notion-copy/releases/tag/v2.5.0) 查看版本说明和全部附件。
 
 当前版本：2.5.0
 
