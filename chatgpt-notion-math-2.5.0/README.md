@@ -1,17 +1,4 @@
-# ChatGPT to Notion Copy
-
-这是 **ChatGPT to Notion Copy** 浏览器扩展仓库。仓库保留原有工具包，并新增 Firefox 版 `ChatGPT to Notion Math 2.5.0`。
-
-## 仓库结构
-
-```text
-.
-├── ChatGPTtoNotionCopy.zip       # 仓库原有工具包（保留不变）
-├── chatgpt-notion-math-2.5.0/    # 新增的完整 2.5.0 工具包
-├── chatgpt-notion-math-2.5.0.zip # 工具包分发压缩包
-├── README.md
-└── CHANGELOG.md
-```
+# ChatGPT to Notion Math
 
 当前版本：2.5.0
 
@@ -66,17 +53,6 @@ Notion 的网页编辑器没有可供扩展使用的原生公式剪贴板格式�
 - Token 保存在 Firefox 的 `storage.local` 中。
 - 内容只发送到 Notion API。
 - 这是适合个人使用的版本。若发布给其他用户，应增加后端并改用 Notion OAuth，不能把 OAuth Client Secret 放进扩展。
-
-## 原仓库隐私说明（适用于原有工具包）
-
-原版 **ChatGPT to Notion Copy** 是用于把 ChatGPT 内容转换成适合 Notion 的 Markdown 格式的 Chrome 扩展，重点保留代码块和数学公式。
-
-- 原版不收集、保存或传输个人数据与使用数据。
-- 原版只在用户主动复制时访问剪贴板。
-- 原版处理在浏览器本地完成，不使用分析或跟踪服务。
-- 联系方式：yushangyuan1997@gmail.com
-
-上述说明仅适用于仓库原有工具包。新增的 2.5.0 版本在选区包含公式或一级标题时，会将所选内容直接发送至 Notion API，以创建原生 Notion blocks；详情以本页“隐私与安全”一节为准。
 
 ## 已知限制
 

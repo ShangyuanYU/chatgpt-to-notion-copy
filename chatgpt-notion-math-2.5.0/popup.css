@@ -1,0 +1,11 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { margin: 0; min-width: 340px; }
+main { padding: 16px; }
+h1 { margin: 0 0 14px; font-size: 18px; }
+label { display: block; margin: 12px 0; font-size: 12px; }
+input { box-sizing: border-box; width: 100%; margin-top: 5px; padding: 8px; border: 1px solid #8887; border-radius: 7px; background: transparent; color: inherit; }
+button { padding: 8px 12px; border: 0; border-radius: 7px; background: #2383e2; color: white; cursor: pointer; }
+#status { min-height: 1.3em; margin: 9px 0; font-size: 12px; }
+details { font-size: 12px; line-height: 1.5; }
+ol { padding-left: 20px; }
+

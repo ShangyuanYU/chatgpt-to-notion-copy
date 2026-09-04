@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT to Notion Math",
+  "version": "2.5.0",
+  "description": "Send ChatGPT answers to Notion as native blocks, including editable equations.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.notion.com/*"],
+  "background": { "scripts": ["background.js"] },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*", "https://chat.openai.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://app.notion.com/*",
+        "https://notion.so/*",
+        "https://*.notion.so/*",
+        "https://notion.site/*",
+        "https://*.notion.site/*"
+      ],
+      "js": ["notion-paste.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "ChatGPT to Notion Math",
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "chatgpt-notion-math@example.local",
+      "strict_min_version": "109.0"
+    }
+  }
+}
+
